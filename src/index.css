@@ -21,3 +21,7 @@ html,body{
   background-color: lightgreen;
   border-radius: 50%;
 }
+.img{
+  width: 200px;
+  height: 200px;
+}
