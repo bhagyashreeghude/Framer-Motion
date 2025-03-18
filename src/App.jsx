@@ -1,11 +1,19 @@
 import React from 'react'
+import {motion} from 'motion/react'
 
 const App =() =>{
   return (
     <div>
-      <div className="box">
-        
-      </div>
+      <motion.div 
+      className="box"
+      animate={{
+        x:100
+
+      }}
+      >
+
+
+      </motion.div>
     </div>
 
   )
