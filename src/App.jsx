@@ -10,10 +10,17 @@ const App =() =>{
       y:[0,0,600,600,0],
       rotate:[0,360,0,-360,0 ]
     }}
-    transition={{
-      duration:4,
-      delay:2
-    }}>
+    whileHover={{
+      backgroundColor:'green'
+    }}
+    whileTap={{
+      scale:0.8
+    }}
+    // transition={{
+    //   duration:4,
+    //   delay:2
+    // }}
+    >
 
     </motion.div>
     <motion.img className='img'
@@ -21,7 +28,9 @@ const App =() =>{
       x:1000,
       y:200,
       rotate:360
+
     }}
+    
     transition={{
       duration:2,
       delay:1
